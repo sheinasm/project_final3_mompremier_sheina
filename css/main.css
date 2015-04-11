@@ -34,19 +34,21 @@ nav {
     padding-bottom: .02em;
 
 
+
 }
 
 nav ul {
     list-style-type: none;
-
 }
 
 nav ul li {
     display: inline;
-    margin-right: 30px;
-    font-family: 'Playfair Display', serif;
-    letter-spacing: 1px;
-    font-size: 1em;
+    margin-right: 25px;
+    font-family: 'Merriweather', serif;
+    letter-spacing: px;
+    font-size: .6em;
+
+
 
 }
 
