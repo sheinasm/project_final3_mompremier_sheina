@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+/*---------------h1 styles----------------*/
+
+.title {
+    text-indent: -9000px;
+    position: absolute;
+}
+
+/*----------------------------------------*/
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    padding-top: 65px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 60%;
+}
+
+nav {
+    text-align: center;
+    margin-top: 30px;
+    background-color: black;
+    padding-top: .02em;
+    padding-bottom: .02em;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 30px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    font-size: 1em;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+
+
+}
+
