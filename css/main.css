@@ -45,17 +45,21 @@ nav ul li {
     display: inline;
     margin-right: 25px;
     font-family: 'Merriweather', serif;
-    letter-spacing: px;
-    font-size: .6em;
-
-
-
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
+}
 
+
+/*-----------------------Media Queries---------------------------------*/
+
+/*---------------Phone------------------*/
+@media (min-width: 320px) {
+    nav ul li {
+    font-size: .65em;
+    }
 
 }
 
