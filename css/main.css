@@ -66,7 +66,7 @@ nav ul li a {
 /*---------------Phone------------------*/
 @media (min-width: 320px) {
     nav ul li {
-    font-size: .7em;
+    font-size: 1em;
     }
 
 }
