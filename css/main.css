@@ -60,6 +60,7 @@ nav ul li a {
     width: 600px;
     height: 300px;
     overflow: hidden;
+    border-bottom: solid #630f0f;
 }
 
 
