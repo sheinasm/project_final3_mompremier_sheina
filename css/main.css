@@ -13,6 +13,9 @@
 
 /*---------------------------------------*/
 
+header {
+    background-color: #630f0f;
+}
 
 .logo {
     text-align: center;
@@ -24,7 +27,7 @@
 }
 
 img {
-    max-width: 60%;
+    max-width: 100%;
 }
 
 nav {
@@ -50,16 +53,9 @@ nav ul li a {
     color: white;
 }
 
-.banner {
-    text-align: center;
-    width: 100%;
-    margin: 0px;
-    z-index: 0;
-}
 
-.banner img {
-    width: 100%;
-}
+
+
 
 /*-----------------------Media Queries---------------------------------*/
 
@@ -67,6 +63,10 @@ nav ul li a {
 @media (min-width: 320px) {
     nav ul li {
     font-size: 1em;
+    }
+
+    .logo img {
+        max-width: 45%;
     }
 
 }
