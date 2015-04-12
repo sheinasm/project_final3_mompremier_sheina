@@ -11,7 +11,8 @@
     position: absolute;
 }
 
-/*----------------------------------------*/
+/*---------------------------------------*/
+
 
 .logo {
     text-align: center;
@@ -32,9 +33,6 @@ nav {
     background-color: black;
     padding-top: .02em;
     padding-bottom: .02em;
-
-
-
 }
 
 nav ul {
@@ -52,16 +50,23 @@ nav ul li a {
     color: white;
 }
 
+.banner {
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    z-index: 0;
+}
 
-
-
+.banner img {
+    width: 100%;
+}
 
 /*-----------------------Media Queries---------------------------------*/
 
 /*---------------Phone------------------*/
 @media (min-width: 320px) {
     nav ul li {
-    font-size: .65em;
+    font-size: .7em;
     }
 
 }
