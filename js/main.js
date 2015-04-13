@@ -1,7 +1,7 @@
 $( document ).ready(function() {
 
 
-    //JSSOR Slider---------------->
+    //JSSOR Slider-------------------------------------------------------->
     var options = {};
         var jssor_slider1 = new $JssorSlider$('slider1_container', options);
 
@@ -28,7 +28,7 @@ $( document ).ready(function() {
         //------Trigger-----
 
         //jssor_slider1_starter('slider1_container');
-        //END JSSOR SLIDER----------->
+    //END JSSOR SLIDER--------------------------------------------------->
 
 
 

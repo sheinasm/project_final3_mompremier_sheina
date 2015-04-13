@@ -36,6 +36,7 @@ h3 {
     font-family: 'Merriweather', serif;
     font-style: italic;
     font-weight: 300;
+    font-size: 1em;
 }
 /*---------------------------------------*/
 
@@ -148,6 +149,36 @@ nav ul li a {
 
 }
 
+footer {
+    background-color: black;
+    color: white;
+    height: 300px;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+.awards {
+}
+
+.awards-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.8em;
+
+}
+
+.awards ul {
+    list-style-type: none;
+}
+
+.awards ul li {
+    display: block;
+    font-family: 'Merriweather', serif;
+}
+
+.social-media {
+    text-align: center;
+    padding-top: 30px;
+}
 
 
 
@@ -162,6 +193,10 @@ nav ul li a {
 
     .logo img {
         max-width: 45%;
+    }
+
+    .awards ul li {
+        font-size: .8em;
     }
 
 }
