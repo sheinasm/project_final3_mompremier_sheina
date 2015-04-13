@@ -4,14 +4,75 @@
     padding: 0;
 }
 
+
+
 /*---------------h1 styles----------------*/
 
 .title {
     text-indent: -9000px;
     position: absolute;
 }
+.menu-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 2.5em;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.section-titles {
+    font-family: 'Great Vibes', cursive;
+    color: #630f0f;
+
+
+}
 
 /*---------------------------------------*/
+
+
+
+/*---------------h3 styles----------------*/
+
+h3 {
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: 300;
+}
+/*---------------------------------------*/
+
+
+
+/*---------------p styles----------------*/
+
+
+
+p {
+    font-family: 'Merriweather', serif;
+    margin-bottom: 5px;
+}
+
+.happy-hour {
+    font-family: 'Merriweather', serif;
+    font-weight: 300;
+}
+
+.happy-hour-title {
+    color: #630f0f;
+    font-style: italic;
+}
+
+.normal-text {
+    font-family: 'Merriweather', serif;
+    color: black;
+    font-style: normal;
+
+}
+
+.drink-types {
+    font-family: 'Trochut', cursive;
+    font-size: 1.5em;
+}
+/*---------------------------------------*/
+
 
 header {
     background-color: #630f0f;
@@ -63,6 +124,29 @@ nav ul li a {
     border-bottom: solid #630f0f;
 }
 
+.specials {
+    text-align: center;
+    background-color: #e8e9db;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.menu-items {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.appetizers, .entrees, .desserts, .drinks {
+    margin-top: 50px;
+    border: solid #451b10;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    box-shadow: 1px 1px 1px 1px #b2b2b2;
+
+}
 
 
 
@@ -73,7 +157,7 @@ nav ul li a {
 /*---------------Phone------------------*/
 @media (min-width: 320px) {
     nav ul li {
-    font-size: 1em;
+    font-size: .9em;
     }
 
     .logo img {
