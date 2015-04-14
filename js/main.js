@@ -30,6 +30,10 @@ $( document ).ready(function() {
         //jssor_slider1_starter('slider1_container');
     //END JSSOR SLIDER--------------------------------------------------->
 
+    $(document).ready(function() {
+        $(".fancybox").fancybox();
+    });
+
 
 
 });
