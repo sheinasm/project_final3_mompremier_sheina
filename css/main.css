@@ -24,9 +24,17 @@
     color: #630f0f;
 }
 
+.contact-title {
+    font-family: 'Trochut', cursive;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 /*---------------------------------------*/
 
-
+h2 {
+    font-family: 'Merriweather', serif;
+}
 
 /*---------------h3 styles----------------*/
 
@@ -153,37 +161,6 @@ nav ul li a {
 
 }
 
-footer {
-    background-color: black;
-    color: white;
-    height: 300px;
-    margin-top: 50px;
-    padding-top: 20px;
-}
-
-.awards {
-}
-
-.awards-title {
-    font-family: 'Great Vibes', cursive;
-    font-size: 1.8em;
-
-}
-
-.awards ul {
-    list-style-type: none;
-}
-
-.awards ul li {
-    display: block;
-    font-family: 'Merriweather', serif;
-}
-
-.social-media {
-    text-align: center;
-    padding-top: 30px;
-}
-
 /*------------Fancybox----------------------*/
 .fancybox img {
     max-width: 100%;
@@ -211,6 +188,69 @@ footer {
     padding-top: 20px;
     margin-bottom: 200px;
 }
+
+.map {
+    text-align: center;
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+.location, .hours {
+    text-align: left;
+    padding-left: 10px;
+    color: #630f0f;
+    float: left;
+    overflow: hidden;
+}
+
+.hours {
+    margin-bottom: 100px;
+}
+
+.location ul, .hours ul {
+    list-style-type: none;
+}
+
+.location ul li, .hours ul li {
+    font-size: 1.1em;
+    font-family: 'Merriweather', cursive;
+    text-align: left;
+}
+
+/*----------------Footer--------------------------*/
+
+footer {
+    background-color: black;
+    color: white;
+    height: 300px;
+    margin-top: 50px;
+    padding-top: 20px;
+    clear: both;
+}
+
+.awards {
+}
+
+.awards-title {
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.8em;
+
+}
+
+.awards ul {
+    list-style-type: none;
+}
+
+.awards ul li {
+    display: block;
+    font-family: 'Merriweather', serif;
+}
+
+.social-media {
+    text-align: center;
+    padding-top: 30px;
+}
+/*------------------------------------------*/
 
 
 /*-----------------------Media Queries---------------------------------*/
