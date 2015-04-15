@@ -67,6 +67,14 @@ p {
     font-family: 'Trochut', cursive;
     font-size: 1.5em;
 }
+
+.featured-gallery {
+    font-style: italic;
+    font-family: 'Merriweather', serif;
+    color: black;
+    margin-bottom: 30px;
+}
+
 /*---------------------------------------*/
 
 
@@ -182,18 +190,26 @@ footer {
     text-align: center;
 }
 
-.gusteau-favorites {
-        text-align: center;
-
-    }
-
-.gusteau-chefs {
+.galleria {
     text-align: center;
+    padding-top: 70px;
+    margin-top: 0;
+
+}
+
+.gusteau-favorites {
+    margin-bottom: 90px;
 }
 
 .gusteau-favorite-desserts {
-    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 90px;
 
+}
+
+.gusteau-chefs {
+    padding-top: 20px;
+    margin-bottom: 200px;
 }
 
 
@@ -201,8 +217,13 @@ footer {
 
 /*---------------Phone------------------*/
 @media (min-width: 320px) {
+    .featured-gallery {
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
     nav ul li {
-    font-size: .9em;
+        font-size: .9em;
     }
 
     .logo img {
@@ -213,14 +234,6 @@ footer {
         font-size: .8em;
     }
 
-    .gusteau-chefs {
-        text-align: center;
-    }
-
-    .gusteau-favorites {
-        text-align: center;
-
-    }
 
 }
 
