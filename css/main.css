@@ -118,14 +118,18 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 25px;
+    margin-right: 30px;
     font-family: 'Merriweather', serif;
 }
 
 nav ul li a {
     text-decoration: none;
     color: white;
+
 }
+
+
+
 
 #slider1_container {
     position: relative;
@@ -276,4 +280,28 @@ footer {
 
 
 }
+
+/*-------------Tablet------------------*/
+@media (min-width: 580px)  {
+    .logo img {
+        max-width: 30%;
+    }
+}
+
+@media (min-width: 700px)  {
+    .logo img {
+        max-width: 27%;
+    }
+
+    nav ul li {
+    margin-right: 40px;
+    font-size: 1.2em;
+}
+}
+
+
+
+}
+
+
 
