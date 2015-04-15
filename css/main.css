@@ -176,7 +176,25 @@ footer {
     padding-top: 30px;
 }
 
+/*------------Fancybox----------------------*/
+.fancybox img {
+    max-width: 100%;
+    text-align: center;
+}
 
+.gusteau-favorites {
+        text-align: center;
+
+    }
+
+.gusteau-chefs {
+    text-align: center;
+}
+
+.gusteau-favorite-desserts {
+    text-align: center;
+
+}
 
 
 /*-----------------------Media Queries---------------------------------*/
@@ -193,6 +211,15 @@ footer {
 
     .awards ul li {
         font-size: .8em;
+    }
+
+    .gusteau-chefs {
+        text-align: center;
+    }
+
+    .gusteau-favorites {
+        text-align: center;
+
     }
 
 }
