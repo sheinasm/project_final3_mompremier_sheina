@@ -266,6 +266,22 @@ footer {
 .social-media {
     text-align: center;
     padding-top: 30px;
+    margin-bottom: 00px;
+}
+
+.social-media ul {
+    list-style-type: none;
+}
+
+.social-media ul li {
+    display: inline;
+}
+
+.social-media img {
+    max-width: 10%;
+    background-color: white;
+    margin-right: 5px;
+    text-align: center;
 }
 /*------------------------------------------*/
 
@@ -312,6 +328,9 @@ footer {
         max-width: 40%;
 
     }
+
+    .social-media img {
+    max-width: 6%;
 }
 
 /*@media (min-width: 700px)  {
@@ -362,6 +381,9 @@ footer {
         max-width: 30%;
 
     }
+
+    .social-media img {
+    max-width: 4%;
 
 
 
