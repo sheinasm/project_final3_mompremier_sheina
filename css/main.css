@@ -128,6 +128,11 @@ nav ul li a {
 
 }
 
+nav ul li a:hover {
+    border-top: #630f0f solid;
+    border-bottom: #630f0f solid;
+}
+
 
 
 
@@ -209,6 +214,13 @@ nav ul li a {
 
 .hours {
     margin-bottom: 100px;
+    margin-left: 90px;
+
+}
+
+.location {
+    margin-left: 100px;
+
 }
 
 .location ul, .hours ul {
@@ -220,6 +232,7 @@ nav ul li a {
     font-family: 'Merriweather', cursive;
     text-align: left;
 }
+
 
 /*----------------Footer--------------------------*/
 
@@ -271,7 +284,7 @@ footer {
     }
 
     .logo img {
-        max-width: 45%;
+        max-width: 40%;
     }
 
     .awards ul li {
@@ -286,22 +299,101 @@ footer {
     .logo img {
         max-width: 30%;
     }
+
+    .appetizers, .entrees, .desserts, .drinks {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 50px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .gusteau-favorites img, .gusteau-favorite-desserts img, .gusteau-chefs img {
+        max-width: 40%;
+
+    }
 }
 
-@media (min-width: 700px)  {
+/*@media (min-width: 700px)  {
     .logo img {
-        max-width: 27%;
+        max-width: 33%;
+    }
+
+    .location {
+        margin-left: 100px;
+    }
+
+    .hours {
+        margin-left: 90px;
     }
 
     nav ul li {
-    margin-right: 40px;
-    font-size: 1.2em;
+        margin-right: 40px;
+        font-size: 1.2em;
+    }
+
+    .location {
+        margin-left: 80px;
+    }
 }
-}
+*/
+
+
+/*--------------------Desktop-----------*/
+@media (min-width: 850px) {
+    .logo img {
+        max-width: 23%;
+    }
+
+    .appetizers, .entrees, .desserts, .drinks {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+        margin-left: 220px;
+        margin-right: 220px;
+
+    }
+
+    main {
+        margin-bottom: 200px;
+    }
+
+    .gusteau-favorites img, .gusteau-favorite-desserts img {
+        max-width: 30%;
+
+    }
 
 
 
 }
+
+@media (min-width: 1129px) {
+    .logo img {
+        max-width: 20%;
+    }
+
+    .appetizers, .entrees, .desserts, .drinks {
+        margin-left: 320px;
+        margin-right: 320px;
+    }
+
+    nav ul li {
+        font-size: 1.8em;
+        margin-left: 20px;
+    }
+
+    .menu-title {
+    font-size: 3.2em;
+    }
+
+    .gusteau-chefs img {
+        max-width: 22%;
+    }
+
+
+}
+
+
 
 
 
