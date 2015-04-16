@@ -215,11 +215,11 @@ nav ul li a:hover {
 
 .hours {
     margin-bottom: 100px;
-    margin-left: 90px;
+    margin-left: 30px;
 }
 
 .location {
-    margin-left: 100px;
+    margin-left: 30px;
 }
 
 .location ul, .hours ul {
@@ -328,9 +328,17 @@ footer {
         border-bottom: none;
     }
 
+    .logo img {
+        margin-left: 15px;
+    }
+
     nav ul li {
         font-size: 1.3em;
         margin-left: 15px;
+    }
+
+    #slider1_container {
+        margin-top: 0;
     }
 
     .appetizers, .entrees, .desserts, .drinks {
