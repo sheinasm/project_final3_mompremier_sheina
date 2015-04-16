@@ -6,6 +6,7 @@ Plugins:
 -https://github.com/meanthemes/meanMenu
 -https://jssor.com
 -https://fancybox.net
+**Fancybox plugin requires that images are placed inside the css folder.
 
 Other:
 -https://learn.jquery.com/using-jquery-core/faq/how-do-i-test-whether-an-element-exists/
