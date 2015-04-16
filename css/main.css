@@ -4,9 +4,7 @@
     padding: 0;
 }
 
-
-
-/*---------------h1 styles----------------*/
+/*---------------h1 styles--------------*/
 
 .title {
     text-indent: -9000px;
@@ -33,11 +31,12 @@
 
 /*---------------------------------------*/
 
+/*------------h2 style-------------------*/
 h2 {
     font-family: 'Merriweather', serif;
 }
 
-/*---------------h3 styles----------------*/
+/*---------------h3 styles---------------*/
 
 h3 {
     font-family: 'Merriweather', serif;
@@ -47,8 +46,6 @@ h3 {
 }
 
 /*---------------------------------------*/
-
-
 
 /*---------------p styles----------------*/
 p {
@@ -88,7 +85,7 @@ p {
 
 /*---------------------------------------*/
 
-
+/*----------------Header-----------------*/
 
 header {
     background-color: #630f0f;
@@ -100,7 +97,7 @@ header {
 
 .logo img {
     padding-top: 65px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 img {
@@ -134,9 +131,9 @@ nav ul li a:hover {
     border-top: #630f0f solid;
     border-bottom: #630f0f solid;
 }
+/*---------------------------------------*/
 
-
-
+/*------------Content--------------------*/
 
 #slider1_container {
     position: relative;
@@ -147,6 +144,7 @@ nav ul li a:hover {
     overflow: hidden;
     border-bottom: solid #630f0f;
 }
+
 
 .specials {
     text-align: center;
@@ -171,8 +169,9 @@ nav ul li a:hover {
     box-shadow: 1px 1px 1px 1px #b2b2b2;
 
 }
+/*---------------------------------------*/
 
-/*------------Fancybox----------------------*/
+/*------------Fancybox-------------------*/
 .fancybox img {
     max-width: 100%;
     text-align: center;
@@ -232,9 +231,9 @@ nav ul li a:hover {
     font-family: 'Merriweather', cursive;
     text-align: left;
 }
+/*-------------------------------------*/
 
-
-/*----------------Footer--------------------------*/
+/*----------------Footer---------------*/
 
 footer {
     background-color: black;
@@ -243,12 +242,9 @@ footer {
     margin-top: 50px;
     padding-top: 20px;
     clear: both;
+    overflow: hidden;
 }
 
-.awards-title {
-    font-family: 'Great Vibes', cursive;
-    font-size: 1.8em;
-}
 
 .awards ul {
     list-style-type: none;
@@ -261,8 +257,7 @@ footer {
 
 .social-media {
     text-align: center;
-    padding-top: 30px;
-    margin-bottom: 00px;
+    padding-top: 15px;
 }
 
 .social-media ul {
@@ -277,20 +272,23 @@ footer {
     max-width: 10%;
     background-color: white;
     margin-right: 5px;
-    text-align: center;
 }
-/*------------------------------------------*/
+
+ .reservations p a {
+    color: #630f0f;
+}
+/*---------------------------------------*/
 
 
 /*-----------------------Media Queries---------------------------------*/
 
-/*---------------Phone------------------*/
+/*---------------Phone-------------------*/
 @media (min-width: 320px) {
     .featured-gallery {
         padding-left: 15px;
         padding-right: 15px;
-
     }
+
     nav ul li {
         font-size: .9em;
     }
@@ -303,13 +301,28 @@ footer {
         font-size: .8em;
     }
 
+    footer {
+        text-align: center;
+    }
+
+    .awards ul, .social-media ul {
+        margin-left: -40px;
+    }
+
+    .reservations {
+        font-size: .8em;
+        padding-top: 20px;
+    }
+
+
 
 }
 
-/*-------------Tablet------------------*/
+/*-------------Tablet----------------------*/
 @media (min-width: 580px)  {
-    .logo img {
-        max-width: 30%;
+    nav ul li {
+        font-size: 1.3em;
+        margin-left: 15px;
     }
 
     .appetizers, .entrees, .desserts, .drinks {
@@ -325,7 +338,9 @@ footer {
     }
 
     .social-media img {
-    max-width: 6%;
+        max-width: 6%;
+        margin-right: 10px;
+    }
 }
 
 /*@media (min-width: 700px)  {
@@ -353,12 +368,8 @@ footer {
 */
 
 
-/*--------------------Desktop-----------*/
+/*--------------------Desktop-------------------*/
 @media (min-width: 850px) {
-    .logo img {
-        max-width: 23%;
-    }
-
     .appetizers, .entrees, .desserts, .drinks {
         padding-left: 20px;
         padding-right: 20px;
@@ -375,13 +386,25 @@ footer {
         max-width: 30%;
     }
 
+    .awards ul li {
+        font-size: 1em;
+    }
+
+    .reservations {
+        padding-top: 5px;
+    }
+
+    .reservations p {
+        font-size: 1.1em;
+    }
+
     .social-media img {
     max-width: 4%;
 }
 
 @media (min-width: 1129px) {
     .logo img {
-        max-width: 20%;
+        max-width: 30%;
     }
 
     .appetizers, .entrees, .desserts, .drinks {
@@ -400,6 +423,10 @@ footer {
 
     .gusteau-chefs img {
         max-width: 22%;
+    }
+
+    .social-media img {
+        max-width: 3%;
     }
 
 
