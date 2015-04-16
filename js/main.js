@@ -36,6 +36,7 @@ $( document ).ready(function() {
         //jssor_slider1_starter('slider1_container');
     //END JSSOR SLIDER--------------------------------------------------->
 
+    //FANCYBOX PLUGIN---------------------------------------------------->
     if ( $( ".fancybox" ).length ) {
 
         $( ".fancybox" ).show( );
@@ -44,6 +45,12 @@ $( document ).ready(function() {
 
 
     $( ".fancybox" ).fancybox( );
+    //END FANCYBOX PLUGIN----------------------------------------------->
+
+    //MEANMENU PLUGIN--------------------------------------------------->
+
+    jQuery('header nav').meanmenu();
+    //END FANCYBOX PLUGIN----------------------------------------------->
 
 
 
