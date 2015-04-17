@@ -359,33 +359,8 @@ footer {
     }
 }
 
-/*@media (min-width: 700px)  {
-    .logo img {
-        max-width: 33%;
-    }
-
-    .location {
-        margin-left: 100px;
-    }
-
-    .hours {
-        margin-left: 90px;
-    }
-
-    nav ul li {
-        margin-right: 40px;
-        font-size: 1.2em;
-    }
-
-    .location {
-        margin-left: 80px;
-    }
-}
-*/
-
-
 /*--------------------Desktop-------------------*/
-@media (min-width: 850px) {
+@media (min-width: 800px) {
     .appetizers, .entrees, .desserts, .drinks {
         padding-left: 20px;
         padding-right: 20px;
@@ -396,6 +371,10 @@ footer {
 
     main {
         margin-bottom: 200px;
+    }
+
+    .logo img {
+        max-width: 15%;
     }
 
     .gusteau-favorites img, .gusteau-favorite-desserts img {
@@ -420,7 +399,7 @@ footer {
 
 @media (min-width: 1129px) {
     .logo img {
-        max-width: 30%;
+        max-width: 15%;
     }
 
     .appetizers, .entrees, .desserts, .drinks {
@@ -429,7 +408,7 @@ footer {
     }
 
     nav ul li {
-        font-size: 1.8em;
+        font-size: 1em;
         margin-left: 20px;
     }
 
