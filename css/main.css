@@ -285,6 +285,31 @@ footer {
 }
 /*---------------------------------------*/
 
+/*-----------------------Form----------------------*/
+
+form, input {
+    text-align: center;
+}
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color:#630f0f;
+    color: white;
+    margin: auto;
+    border-radius: 30px;
+}
+
+input[type="reset"] {
+    padding: 4px;
+    background-color: #B8B4B4;
+    margin: auto;
+}
+
+
 
 /*-----------------------Media Queries---------------------------------*/
 
@@ -363,6 +388,11 @@ footer {
         max-width: 6%;
         margin-right: 10px;
     }
+
+    form {
+        margin-left: 100px;
+        margin-right: 100px;
+    }
 }
 
 /*--------------------Desktop-------------------*/
@@ -401,6 +431,15 @@ footer {
 
     .social-media img {
     max-width: 4%;
+    }
+
+    form {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+
+
 }
 
 @media (min-width: 1129px) {
@@ -429,6 +468,14 @@ footer {
     .social-media img {
         max-width: 3%;
     }
+
+    form {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+
+
+
 
 
 }
