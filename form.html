@@ -31,7 +31,7 @@
         </header>
 
         <section class="order-form">
-            <form name="gusteaus-order" method="POST" action="registration.php">
+            <form name="gusteaus-order" id="gusteau-form" method="POST" action="registration.php" onsubmit="return false;">
                 <fieldset>
                     <legend>
                         <p class="menu-title">Contact Info</p>
@@ -51,6 +51,49 @@
 
                 <fieldset>
                     <legend>
+                        <p class="menu-title">Choose an Entree</p>
+                    </legend>
+
+                    <p>Entrees:
+                    <select name="appetizer-options" id="entree" onchange="calculateTotal()">
+                        <optgroup label="Entree Selections">
+                            <option value="poulet">Poulet au Porto </option>
+                            <option value="quiches">Quiche aux Légumes</option>
+                            <option value="steak">Steak Haché </option>
+                            <option value="tilapia">Tilapia Meunière</option>
+                            <option value="grille">Saumon Grillé</option>
+                            <option value="provencale">Crevettes à la Provençale</option>
+                            <option value="fromage">Crépe au Fromage de Chévre </option>
+                            <option value="brie">Crépe au Fromage de Brie</option>
+                            <option value="vegetarian">Crépe Végétarienne </option>
+                            <option value="prosciutto">Crepe au Prosciutto et Endives</option>
+                        </optgroup>
+                    </select>
+                    </p>
+
+                    <p>How many? </br>
+                        <label for="quantity">
+                        <input name="quantity" type=
+                        "text" id="quantity" value="1" size
+                        ="20" />
+                        </label>
+                    </p>
+
+                    <div id="totalPrice"></div>
+                </fieldset>
+
+
+
+
+                    <input type="submit" name="submit">
+                    <input type="reset" name="reset"/>
+
+
+
+            </form>
+
+            <!--<fieldset>
+                    <legend>
                         <p class="menu-title">Choose an Appetizer</p>
                     </legend>
 
@@ -68,50 +111,14 @@
                     </p>
 
                     <p>How many? </br>
-                        <label for="amount">
-                        <input name="amount" type=
-                        "text" id="name" placeholder="1" size
-                        ="20" /></label>
+                        <label for="quantity">
+                        <input name="quantity" type=
+                        "text" id="quantity" placeholder="1" size
+                        ="20" />
+                        </label>
                     </p>
-                </fieldset>
+                </fieldset>-->
 
-                <fieldset>
-                    <legend>
-                        <p class="menu-title">Choose an Entree</p>
-                    </legend>
-
-                    <p>Appetizers:
-                    <select name="appetizer-options" id="app">
-                        <optgroup label="Choose Your Appetizer">
-                            <option value="poulet">Poulet au Porto </option>
-                            <option value="quiches">Quiche aux Légumes</option>
-                            <option value="steak">Steak Haché </option>
-                            <option value="tilapia">Tilapia Meunière</option>
-                            <option value="grille">Saumon Grillé</option>
-                            <option value="provencale">Crevettes à la Provençale</option>
-                            <option value="fromage">Crépe au Fromage de Chévre </option>
-                            <option value="brie">Crépe au Fromage de Brie</option>
-                            <option value="vegetarian">Crépe Végétarienne </option>
-                            <option value="prosciutto">Crepe au Prosciutto et Endives</option>
-                        </optgroup>
-                    </select>
-                    </p>
-
-                    <p>How many? </br>
-                        <label for="amount">
-                        <input name="amount" type=
-                        "text" id="name" placeholder="1" size
-                        ="20" /></label>
-                    </p>
-                </fieldset>
-
-
-                    <input type="submit" name="submit">
-                    <input type="reset" name="reset"/>
-
-
-
-            </form>
         </section>
 
         <footer>

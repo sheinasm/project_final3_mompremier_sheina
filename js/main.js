@@ -52,8 +52,65 @@ $( document ).ready(function() {
     //MEANMENU PLUGIN--------------------------------------------------->
 
     $("header nav").meanmenu();
+    //END MEANMENU PLUGIN----------------------------------------------->
 
+    //FORM JS CODE------------------------------------------------------>
+    var theForm = document.forms["gusteau-form"];
+
+    var entree_prices = new Array();
+        entree_prices["poulet"]= 14;
+        entree_prices["quiches"]= 11;
+        entree_prices["steak"]= 13;
+        entree_prices["tilapia"]= 13;
+        entree_prices["grille"]= 15;
+        entree_prices["provencale"]= 14.5;
+        entree_prices["fromage"]= 11;
+        entree_prices["brie"]= 11;
+        entree_prices["vegetarian"]= 10;
+        entree_prices["prosciutto"]= 13;
+
+    function getEntreePrice() {
+        var entreePrice=0;
+        var theForm = document.forms["gusteau-form"];
+        var selectedEntree = theForm.elements["entree"];
+
+        entreePrice = entree_prices[selectedEntree.value];
+
+        return entreePrice;
+    }
+
+    function getQuantity() {
+        var theForm = document.forms["gusteau-form"];
+
+        var quantity = theForm.elements["quantity"];
+        var howmany = 0;
+
+        if(quantity.value !=" ") {
+            howmany = parseInt(quantity.value);
+        }
+
+        return howmany;
+    }
+
+    function calculateTotal() {
+        var entreePrice = getEntreePrice();
+        var divobj = getElementById('totalPrice');
+        divobj.style.display='block';
+        divobj.innerHTML="Total price for you order is $"+ entreePrice;
+    }
+
+    //or...
+
+    function getTotal() {
+        var entreePrice = getEntreePrice();
+
+        document.getElementById('totalPrice').innerHTML = "Total price for you order is $" + entreePrice;
+    }
 
 
 
 });
+
+
+
+
